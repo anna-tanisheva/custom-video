@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Video-player</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="assets/img/play.ico">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+	<div class="preloader">
+		<div class="preloader__row">
+			<div class="preloader__item"></div>
+			<div class="preloader__item"></div>
+		</div>
+	</div>
+	<header class="header">
+		<div class="container">
+			<h1 class="main-header">Here is old funny Simon's cat</h1>
+		</div>
+	</header>
+	<main class="main">
+		<div class="container">
+			<section class="video-player">
+				<div class="overlay"></div>
+				<video src="assets/video/video.mp4" class="main-video"></video>
+				<button class="play-button"></button>
+				<div class="control-bar">
+					<div class="play-toggle paused"></div>
+					<input type="range" class="timeline" value="0" max="100">
+					<div class="volume-toggle unmuted"></div>
+					<input type="range" class="volume-lvl" step="1" min="0" max="100" value="100">
+				</div>
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div>
+				<span>&copy; 2022</span>
+				<a href="https://github.com/anna-tanisheva" target="_blank" class="footer-link">Github</a>
+			</div>
+			<div>
+				<a href="https://rs.school/js-stage0/" target="_blank" class="footer-link">Rolling Scopes <img
+						src="assets/img/logo-rsschool3.png" alt="logo" class="logo"></a>
+
+			</div>
+		</div>
+	</footer>
+	<script src="js/index.js"></script>
+</body>
+
+</html>

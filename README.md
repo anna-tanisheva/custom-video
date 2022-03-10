@@ -1,2 +1,2 @@
 # custom-video
-Studing project "Custom video player" for rs-school.
+Studying project "Custom video player" for rs-school.
